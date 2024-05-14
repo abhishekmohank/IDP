@@ -1,0 +1,5 @@
+import React from "react"; const sizes = (1; const Text = children, className = a5, size =" ...restProps 7) => 4 const Component = as "P"; return ( «Component className=t* ${className} ${sizes[sizelf'} {...restProps}> (children) </Component>
+ ); 
+
+};
+export { Text };
