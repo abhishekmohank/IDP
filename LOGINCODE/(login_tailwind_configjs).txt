@@ -1,0 +1,62 @@
+module.exports = {
+
+mode: "jit",
+
+content: ["-/src/**/**/*-{js,ts,jsx, tsx,html,mdx]", "-/src/**/*-{js,ts,jsx, tsx,html, mdx}"],
+
+darkMode: "class",
+
+theme: {
+
+screens: { md: { max: "1050px" }, sm: { max: "550px" } }, extend: (
+
+colors: {
+
+black: {
+
+900: "#OdOc®c", "900_05": "#00000005",
+
+"900_07": "#Obb0b", "900_08":
+
+"#080808",
+
+"900_02": "#Đe®e®e", "900_09": "#000000",
+
+"900_7_01":
+
+"900_7f"：
+
+"#0000007f",
+
+"#@bobob7f"」
+
+｝
+
+indigo: { 900:
+
+“#003465"，"400_47"：“#5782c147"｝，
+
+red: { 50:
+
+"#f9eaf®" ),
+
+white: { A700_02: "#ffffff" }, gray: { 400: "#bcbec®", 900:
+
+"#191d23", "50_02": "#fafbfd" },
+
+blue_gray: { 50: "#e7eaee", 500: "#64748b", "100_01": "#dOdSdd" }, teal: { 800:
+
+"#047857" },
+
+boxshadow: th.
+
+fontFamily: { gilroy5: "Gilroy" },
+
+},
+
+},
+
+plugins: [require("@tailwindcss/forms")],
+
+};
+
