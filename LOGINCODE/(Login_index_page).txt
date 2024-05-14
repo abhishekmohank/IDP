@@ -1,0 +1,210 @@
+import React from "react";
+
+import { Helmet } from
+
+react-helmet 3
+
+import { Heading, Img, Text, Button, Input } from "../ ../components";
+
+export default function LoginPage() {
+
+return (
+
+
+
+<>
+
+
+
+<Helmet>
+
+«title>Abhishek's Application2</title>
+
+‹meta name="description" content="Web site created using create-react-app" />
+
+</Helmet>
+
+‹div className="bg-[url/public/images/img_frame_six-png)] py-[195px] h-[1080px] flex w-full items-center justify-center border border-solid border-black-900_05 bg-cover bg-no-repeat md:h-auto md: py-5">
+
+‹div className="rounded-[40px] max-w-[1208px] indigo_400_7c_indigo_400_1c_border border-[3px] mx-auto flex w-full justify-end border-solid bg-indigo-400_47 md: p-5">
+
+«div className="rounded- [40px] px-[50px] gap-[19px] pb-[46px] pt-[49px] -[50%] flex flex-col items-start bg-red-50 md:w-full md: p-5">
+
+‹Heading size="xI" as="h1" className="md:text-[22px] text-2x1 font-bold !text-black-900_07">
+
+Your logo </Heading>
+
+‹a href="Login" target="_blank"
+
+rel="noreferrer" className="sm: text-[34px] md: text-4x1">
+
+<Heading size="4x1" as="h2" className="text-[38px] font-bold !text-black-900_08">
+
+Login </Heading>
+
+</a>
+
+<div className="flex flex-col items-center gap-9 self-stretch"›
+
+‹div className="flex flex-col items-start self-stretch">
+
+‹div className="flex flex-col items-start gap-1 self-stretch"›
+
+‹Text size="x]" as="p" className="text-lg font-normal !text-black-900_02">
+
+Email
+
+</ Text>
+
+<Input
+
+size="md"
+
+shape="round" type="email" name="email"
+
+placeholder={*username@gmail.com*}
+
+className="! rounded- [10px]" 
+
+/>
+
+</div>
+
+‹div className="mt-[30px] flex flex-col items-start gap-1 self-stretch"›
+
+‹Text size="xl" as="p" className="text-lg font-normal !text-black-900">
+
+Password
+
+</ Text>
+
+<Input
+
+size="md"
+
+shape="round" type="password" name="password"
+
+placeholder={" Password'}
+
+
+
+suffix={
+
+‹div className="h-[16px] w-[16px] flex items-center justify-center rounded-1g"›
+
+<Img
+
+src="images/img_clarityeyehideline.svg"
+
+alt="clarity:eye-hide-line" className="h- [16px] w-[16px]"
+
+/>
+
+</div>
+
+｝
+
+className="| rounded- [10px] gap-[35px]"
+
+/>
+
+</div>
+
+‹a href="#" className="mt-[18px]">
+
+<Text
+
+size="s" as="p" className="text-xs font-normal Itext-black-900">
+
+Forgot Password?
+
+</Text>
+
+</a>
+
+</div>
+
+<Button
+
+size="xl"
+
+className="w-full">
+
+Sign in
+
+<Button>
+
+
+
+‹div className="w- [76%] flex md:w-full">
+
+‹div className="flex w-full items-center gap-2.5 sm:flex-col">
+
+‹div className="gap-[30px] flex flex-1 flex-col items-start sm:self-stretch"›
+
+<a href="#"
+
+className="self-end">
+
+‹Text size="md"
+
+as="p"
+
+className="text-sm font-normal !text-white-A700_02">
+
+or continue with </Text>
+
+</a>
+
+‹div className="rounded- [10px] P-[13px] ml-[13px] w-[72%] flex justify-center border border-solid border-gray-400 bg-white-A700_02 md:m1-0 md:w-full">
+
+<Img src="images/img_google.svg" alt="google" className="rounded- [50%] w-[24px] h-[24px]" />
+
+</div>
+
+‹Text size="md"
+
+as="p"
+
+className="text-sm font-normal !text-black-900_07">
+
+Don't have an account yet?
+
+</Text>
+
+«div className="w- [40%] flex flex-col items-end gap-8 self-end sm:w-full"›
+
+‹div className="rounded- [10px] P-[13px] flex justify-center self-stretch border border-solid border-gray-400 bg-white-A700_02">
+
+<Img src="images/img_facebook.svg" alt="facebook" className="w-[24px] h-[24px]" />
+
+</div>
+
+‹Heading size="md"
+
+as="h3"
+
+className="mr-3 !font-gilroy text-sm font-semibold !text-black-900 md:mr-®"
+
+Register for free </Heading>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</>
+
+);
+
+}
+
